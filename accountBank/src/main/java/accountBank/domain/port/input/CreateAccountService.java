@@ -1,4 +1,7 @@
 package accountBank.domain.port.input;
 
-public class CreateAccountService {
+import accountBank.domain.model.AccountBank;
+
+public interface CreateAccountService {
+    AccountBank createAccountBanck(AccountBank accountBank);
 }
