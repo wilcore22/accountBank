@@ -37,7 +37,7 @@ public class AccountBankModel {
 
     @ManyToOne
     @JoinColumn(name = "ownerId", referencedColumnName = "clientId")
-    private Cliente cliente;
+    private ClientesModel cliente;
 
     @Column(name = "interestRate",precision = 10, scale = 2)
     private BigDecimal interestRate;
